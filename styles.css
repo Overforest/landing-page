@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0;
     font-family: Roboto, Helvetica, sans-serif;
 }
@@ -34,4 +34,35 @@ a {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bolder;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 32px 200px;
+    flex: auto;
+}
+
+.hero-right {
+    background-color: gray;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-left {
+    width: 500px
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
