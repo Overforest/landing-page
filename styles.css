@@ -78,11 +78,19 @@ button {
     border: 1px solid #3882f6;
 }
 
-.information {
+.information-header {
     display: flex;
     justify-content: center;
+    background-color: white;
+    margin-bottom: 0;
 }
-.information img {
+
+.information-content {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.information-content img {
 
     width: 150px;
     height: 150px;
