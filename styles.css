@@ -72,6 +72,7 @@ button {
     padding: 8px 16px;
     border-radius: 8px;
     width: 120px;
+    height: 40px;
     font-size: 18px;
     color: #e5e7eb;
     font-weight: bold;
@@ -135,4 +136,37 @@ button {
     font-size: 24px;
     align-self: flex-end;
     font-weight: bold;
+}
+
+.modal {
+    display: flex;
+    padding: 100px 200px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 8px;
+    flex: auto;
+    padding: 50px 100px;
+    align-items: center;
+}
+
+button#box {
+    border: 2px solid #e5e7eb;
+}
+
+.box h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e5e7eb;
+    margin-bottom: 0;
+}
+
+.box p {
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: light;
+    color: #e5e7eb;
 }
