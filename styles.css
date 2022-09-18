@@ -115,3 +115,24 @@ button {
     font-size: 18px;
     font-weight: lighter;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px 300px;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+#author {
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: bold;
+}
