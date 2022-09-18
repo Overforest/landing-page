@@ -170,3 +170,17 @@ button#box {
     font-weight: light;
     color: #e5e7eb;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 16px 200px;
+}
+
+.footer p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: light;
+}
